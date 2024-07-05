@@ -1,6 +1,9 @@
 import './App.css'
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import BasicTable from './components/BasicTable';
+import Summary from './components/Summary';
+import Indicator from './components/Indicator';
+
 
 
 
@@ -14,6 +17,8 @@ function App() {
 	      <Grid xs={12} sm={4} md={3} lg={2}>4</Grid>
 	      <Grid xs={6} sm={4} md={6} lg={2}>5</Grid>
 	      <Grid xs={6} sm={4} md={6} lg={2}>6</Grid>
+		  <Indicator title='Precipitación' subtitle='Probabilidad' value={0.13} />
+		  <Summary></Summary>
 		  <BasicTable />
 
 	    </Grid>
