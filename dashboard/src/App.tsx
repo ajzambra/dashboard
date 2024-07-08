@@ -1,4 +1,4 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Indicator from './components/Indicator';
 import Summary from './components/Summary';
@@ -7,7 +7,7 @@ import BasicTable from './components/BasicTable';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <Grid container spacing={5}>
